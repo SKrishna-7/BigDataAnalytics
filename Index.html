@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Data Analytics</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+
+</head>
+<body>
+    <!-- Home Page -->
+<div class="home content h-full w-full" id="home">
+    <div class="relative h-screen w-full flex items-center justify-center font-kanit text-white 
+    ">
+        <!-- Background Image -->
+        <div
+          class="absolute inset-0 bg-cover bg-center"
+          style="background-image: url('https://imgs.search.brave.com/aJVLt0x1e_0xjKNI6J473UXY0q_KWJy6uimExd3RO40/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDU4/OTMwOTc5L3Bob3Rv/L2xjZC1zY3JlZW4t/d2l0aC1nb29nbGUt/YW5hbHl0aWNzLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1u/Z3l5b1lId2VaUkVp/SlJSbFYtN0gxNUp1/VnNQTWhEcTlFR25N/VmNRNVJjPQ');">
+        </div>
+        <!-- Gradient Overlay -->
+        <div class="absolute inset-0 bg-gradient-to-l from-purple-900 to-red-900 opacity-95"></div>
+        <!-- Content -->
+        <div class="relative z-10 flex flex-col items-center space-y-2">
+          <p class="text-xl text-slate-200 font-kanit tracking-wider md:text-sm ">
+            CCS334 | 5th Sem AI & DS
+          </p>
+          <h1 class="text-6xl uppercase tracking-widest font-bold md:text-3xl">BIG Data Analytics</h1>
+          <p class="w-[60%] text-center py-5 tracking-widest 
+          md:w-[90%] md:tracking-wider">
+            Big Data Analytics detailed syllabus for Artificial Intelligence & Data Science (AI&DS)
+            for 2021 regulation curriculum has been taken from the Anna University official website
+            and presented for the AI&DS students. For course code, course name, number of credits
+            for a course and other scheme-related information, do visit the full semester subjects post
+            given below.
+          </p>
+          <div class="text-center">
+            <p class="text-2xl tracking-wider font-kanit md:text-xl md:tracking-normal">
+              Mr.T.S.Karthick <small class="text-sm">Head Of The Department</small>
+            </p>
+            <p class="text-2xl tracking-wider py-2 font-normal md:text-lg">
+              Artificial Intelligence & Data Science
+            </p>
+          </div>
+        </div>
+        <!-- Scroll Button -->
+        <div
+          class="w-[70px] h-[70px] flex items-center justify-center bg-white absolute bottom-10 cursor-pointer rounded-2xl z-10 md:w-[60px] md:h-[60px]"
+          onclick="scrollToCourseObjectives()">
+          <svg xmlns="http://www.w3.org/2000/svg" class="text-purple-800 text-center" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="52" height="52">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
+      </div>
+    
+      <!-- Course Objectives Section -->
+      <div id="course-objectives">
+        <div class="mt-10 px-10 w-full">
+            <h1 class="text-5xl -bottom-5 font-kanit font-extrabold bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-transparent bg-clip-text text-center md:text-3xl " >
+              Course Objectives
+            </h1>
+        
+            <div class="flex justify-center py-10 ">
+             
+              <div class="p-4" id="units-container">
+                <!-- Dynamic Units will be inserted here -->
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+        <div class="w-full bg-gradient-to-l from-purple-900 to-red-900 
+        opacity-95 inset-0 ">
+      <h1 class="text-center text-white font-kanit py-10 px-3 text-2xl"
+      >@ 3<sup>rd</sup> Year Students of Artificial Intelligence and Data Science 2022-26 </h1>
+        
+    </div>
+      </div>
+<!--  home end -->
+
+    <div class="content" id="unit1" style="display: none;">
+        <div class="">
+                <div class="inset-0 bg-gradient-to-l w-full from-purple-900 to-red-900 opacity-95 py-10">
+                    <h1 class="text-5xl relative z-10 text-center font-kanit tracking-wider font-extrabold text-white 
+                    md:text-[25px]">
+                        UNDERSTANDING BIG DATA
+                    </h1>
+                    <p class="text-md text-zinc-400 font-kanit text-center pt-3 md:text-sm px-2">Introduction to big data – convergence of key trends – unstructured data – industry examples of big data – web analytics – big data applications- big data technologies – introduction to Hadoop -open source technologies – cloud and big data – mobile business intelligence – Crowd sourcing analytics – inter and trans firewall analytics.</p>
+                </div>
+        
+      
+            <div class="flex justify-around w-full ">
+            <div class="p-[3px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-lg my-5 h-max md:p-[1px]">
+                  <div class="bg-white rounded-lg p-4 flex flex-row justify-space items-center cursor-pointer">
+                    <div class="w-[300px] flex items-center p-3 justify-between bg-zinc-100 rounded-xl mr-10 tab 
+                    md:w-[150px] md:mr-2"
+                    onclick='SetUrl("./Notes/Status.pdf")' id="short-answer1">
+                      <h1 class="text-lg font-medium font-kanit text-gray-800">Short Answers</h1>
+                    </div>
+              
+                    <div class="w-[300px] flex items-center p-3 justify-between bg-zinc-100  rounded-xl cursor-pointer tab 
+                    md:w-[150px] md:mr-2 active" onclick='SetUrl("./Notes/unit1-long.pdf") '  id="long-answer1 >
+                      <h1 class="text-lg font-medium font-kanit text-gray-800">Long Answers</h1>
+                      
+                    </div>
+                  </div>
+                </div>
+        </div>
+<!--  -->
+        <div class="w-full h-full p-4 flex items-center justify-center">
+            <div id=" " class="w-[60%] h-[50%] md:w-[80%] ">
+               
+                <div id="pdf-pages1" class="pdf-pages"></div>
+            </div>
+            </div>
+        
+            <div class="m-10 flex justify-around items-center md:flex-col">
+
+                <a href="https://drive.google.com/file/d/139vsQpKS0Saz8eNOzwoe4eOGa-PcIGiY/view?usp=drive_link" class="w-[300px] bg-purple-500 p-4 text-lg font-kanit text-white rounded-lg cursor-pointer
+                md:mb-2 ">Download Complete Unit 1 Notes</a>
+
+                <a href="#unit2" class="w-max bg-purple-500 p-4 text-lg font-kanit text-white rounded-lg ">Unit 2 NOSQL DATA MANAGEMENT > </a>
+
+            </div>
+
+        </div>
+                  
+    </div>
+    </div>
+
+    <!-- Unit 2 -->
+    <div class="content" id="unit2" style="display: none;">
+        <div class="">
+            <div class="inset-0 bg-gradient-to-l w-full from-purple-900 to-red-900 opacity-95 py-10">
+                <h1 class="text-5xl relative z-10 text-center font-kanit tracking-wider font-extrabold text-white
+                md:text-[25px]">
+                    NOSQL DATA MANAGEMENT
+                </h1>
+                <div class="flex items-center justify-center w-full px-4">
+                <p class="text-md text-zinc-400 font-kanit text-center pt-3 w-[80%] md:text-sm ">Introduction to NoSQL – aggregate data models – key-value and document data models -relationships – graph databases – schemaless databases – materialized views – distribution models – master-slave replication – consistency – Cassandra – Cassandra data model -Cassandra examples – Cassandra clients</p>
+            </div>
+            </div>
+    
+  
+        <div class="flex justify-around w-full ">
+        <div class="p-[3px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-lg my-5 h-max">
+              <div class="bg-white rounded-lg p-4 flex flex-row justify-space items-center cursor-pointer">
+                <div class="w-[300px] flex items-center p-3 justify-between bg-zinc-100 rounded-xl mr-10 tab active
+                md:w-[150px] md:mr-2"
+                onclick='SetUrl("./Notes/Status.pdf")' id="short-answer2" >
+                  <h1 class="text-lg font-medium font-kanit text-gray-800">Short Answers</h1>
+                </div>
+          
+                <div class="w-[300px] flex items-center p-3 justify-between bg-zinc-100  rounded-xl cursor-pointer tab 
+                md:w-[150px] md:mr-2 " onclick='SetUrl("./Notes/unit2-long.pdf") ' id="long-answer2">
+                  <h1 class="text-lg font-medium font-kanit text-gray-800">Long Answers</h1>
+                  
+                </div>
+              </div>
+            </div>
+    </div>
+
+    <div class="w-full h-full p-4 flex items-center justify-center">
+        <div  class="w-[50%] md:w-[80%]">
+            <div id="pdf-pages2" class="pdf-pages"></div>
+        </div>
+        </div>
+    
+        <div class="m-10 flex justify-around items-center md:flex-col">
+            <h1 class="w-[300px] bg-purple-500 p-4 text-lg font-kanit text-white rounded-lg cursor-pointer
+            md:mb-2">Download Complete Unit 2 Notes</h1>
+
+            <a href="#unit3" class="w-max bg-purple-500 p-4 text-lg font-kanit text-white rounded-lg ">Unit 3 NOSQL DATA MANAGEMENT > </a>
+
+        </div>
+
+    </div>
+              
+    </div>
+
+    <!-- Unit 3 -->
+    <div class="content " id="unit3" style="display: none;">
+        <div class="">
+            <div class="inset-0 bg-gradient-to-l w-full from-purple-900 to-red-900 opacity-95 py-10">
+                <h1 class="text-5xl relative z-10 text-center font-kanit tracking-wider font-extrabold text-white
+                md:text-[25px]">
+                Map Reduce Applications
+                </h1>
+                <div class="flex items-center justify-center w-full px-4">
+                    <p class="text-md text-zinc-400 font-kanit text-center pt-3 w-[80%]
+                    md:text-sm ">Introduction to NoSQL – aggregate data models – key-value and document data models -relationships – graph databases – schemaless databases – materialized views – distribution models – master-slave replication – consistency – Cassandra – Cassandra data model -Cassandra examples – Cassandra clients</p>
+                </div>
+            </div>
+    
+  
+        <div class="flex justify-around w-full ">
+        <div class="p-[3px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-lg my-5 h-max md:p-[1px]">
+              <div class="bg-white rounded-lg p-4 flex flex-row justify-space items-center cursor-pointer">
+                <div class="w-[300px] flex items-center p-3 justify-between bg-zinc-100 rounded-xl mr-10 tab active   md:w-[150px] md:mr-2"
+                onclick='SetUrl("./Notes/Status.pdf")' id="short-answer3">
+                  <h1 class="text-lg font-medium font-kanit text-gray-800">Short Answers</h1>
+                </div>
+          
+                <div class="w-[300px] flex items-center p-3 justify-between bg-zinc-100  rounded-xl cursor-pointer tab md:w-[150px] md:mr-2 
+                "onclick='SetUrl("./Notes/Status.pdf") '   >
+                  <h1 class="text-lg font-medium font-kanit text-gray-800" id="long-answer3">Long Answers</h1>
+                  
+                </div>
+              </div>
+            </div>
+    </div>
+    <div class="w-full h-full p-4 flex items-center justify-center">
+        <div id=" " class="w-[50%] h-full md:w-[80%]">
+            <!-- <h1 class="text-5xl font-extrabold text-center">Unit2</h1> -->
+            <div id="pdf-pages3" class="pdf-pages"></div>
+        </div>
+        </div>
+    
+    
+        <div class="m-10 flex justify-around items-center md:flex-col">
+
+            <h1 class="w-[300px] bg-purple-500 p-4 text-lg font-kanit text-white rounded-lg cursor-pointer md:mb-2  ">Download Complete Unit 3 Notes</h1>
+
+            <a href="#unit4" class="w-max bg-purple-500 p-4 text-lg font-kanit text-white rounded-lg ">
+             Unit 4 BASICS OF HADOOP
+            </a>
+
+        </div>
+
+    </div>
+              
+    </div>
+    <!-- Unit 4 -->
+    <div class="content " id="unit4" style="display: none;">
+        <div class="">
+            <div class="inset-0 bg-gradient-to-l w-full from-purple-900 to-red-900 opacity-95 py-10">
+                <h1 class="text-5xl relative z-10 text-center font-kanit tracking-wider font-extrabold text-white  md:text-[25px]">
+                    BASICS OF HADOOP
+                </h1>
+                <div class="flex items-center justify-center w-full px-4">
+                    <p class="text-md text-zinc-400 font-kanit text-center pt-3 w-[80%]
+                    md:text-sm  ">Data format – analyzing data with Hadoop – scaling out – Hadoop streaming – Hadoop pipes -design of Hadoop distributed file system (HDFS) – HDFS concepts – Java interface – data flow -Hadoop I/O – data integrity – compression – serialization – Avro – file-based data structures -Cassandra – Hadoop integration.</p>
+                </div>
+            </div>
+    
+  
+        <div class="flex justify-around w-full ">
+        <div class="p-[3px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-lg my-5 h-max md:p-[1px]">
+              <div class="bg-white rounded-lg p-4 flex flex-row justify-space items-center cursor-pointer">
+                <div class="w-[300px] flex items-center p-3 justify-between bg-zinc-100 rounded-xl mr-10 tab active md:w-[150px] md:mr-2 "
+                onclick='SetUrl("./Notes/Status.pdf")' id="short-answer4">
+                  <h1 class="text-lg font-medium font-kanit text-gray-800">Short Answers</h1>
+                </div>
+          
+                <div class="w-[300px] flex items-center p-3 justify-between bg-zinc-100  rounded-xl cursor-pointer tab md:w-[150px] md:mr-2" onclick='SetUrl("./Notes/Status.pdf") '   >
+                  <h1 class="text-lg font-medium font-kanit text-gray-800" id="long-answer4">Long Answers</h1>
+                  
+                </div>
+              </div>
+            </div>
+    </div>
+
+   
+    <div class="w-full h-full p-4 flex items-center justify-center">
+        <div id=" " class="w-[50%] h-full md:w-[80%]">
+            <!-- <h1 class="text-5xl font-extrabold text-center">Unit2</h1> -->
+            <div id="pdf-pages4" class="pdf-pages"></div>
+        </div>
+        </div>
+    
+        <div class="m-10 flex justify-around items-center md:flex-col">
+
+            <h1 class="w-[300px] bg-purple-500 p-4 text-lg font-kanit text-white rounded-lg cursor-pointer  md:mb-2 ">Download Complete Unit 1 Notes</h1>
+
+            <a href="#unit5" class="w-max bg-purple-500 p-4 text-lg font-kanit text-white rounded-lg ">Unit 5
+              HADOOP RELATED TOOLS
+               </a>
+
+        </div>
+
+    </div>
+                
+    </div>
+    <!-- Unit 5 -->
+    <div class="content " id="unit5" style="display: none;">
+        <div class="">
+            <div class="inset-0 bg-gradient-to-l w-full from-purple-900 to-red-900 opacity-95 py-10">
+                <h1 class="text-5xl relative z-10 text-center font-kanit tracking-wider font-extrabold text-white md:text-[25px]">
+                    HADOOP RELATED TOOLS
+
+                </h1>
+                <div class="flex items-center justify-center w-full px-4">
+                    <p class="text-md text-zinc-400 font-kanit text-center pt-3 w-[80%]md:text-sm">Hbase – data model and implementations – Hbase clients – Hbase examples – praxis.Pig – Grunt – pig data model – Pig Latin – developing and testing Pig Latin scripts.Hive – data types and file formats – HiveQL data definition – HiveQL data manipulation – HiveQL queries.</p>
+                </div>
+            </div>
+    
+  
+        <div class="flex justify-around w-full ">
+        <div class="p-[3px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-lg my-5 h-max">
+              <div class="bg-white rounded-lg p-4 flex flex-row justify-space items-center cursor-pointer">
+                <div class="w-[300px] flex items-center p-3 justify-between bg-zinc-100 rounded-xl mr-10 tab active md:w-[150px] md:mr-2"
+                onclick='SetUrl("./Notes/Status.pdf")' id="short-answer5">
+                  <h1 class="text-lg font-medium font-kanit text-gray-800">Short Answers</h1>
+                </div>
+          
+                <div class="w-[300px] flex items-center p-3 justify-between bg-zinc-100  rounded-xl cursor-pointer tab md:w-[150px] md:mr-2"onclick='SetUrl("./Notes/Status.pdf") '   >
+                  <h1 class="text-lg font-medium font-kanit text-gray-800" id="long-answer5">Long Answers</h1>
+                  
+                </div>
+              </div>
+            </div>
+    </div>
+
+    <div class="w-full h-full p-4 flex items-center justify-center">
+        <div id=" " class="w-[50%] h-full md:w-[80%]">
+            <div id="pdf-pages5" class="pdf-pages"></div>
+        </div>
+        </div>
+    
+        <div class="m-10 flex justify-around items-center md:flex-col">
+
+            <h1 class="w-[300px] bg-purple-500 p-4 text-lg font-kanit text-white rounded-lg cursor-pointer md:mb-2">Download Complete Unit 5 Notes</h1>
+
+            <a href="#unit6" class="w-max bg-purple-500 p-4 text-lg font-kanit text-white rounded-lg ">Lab Manual</a>
+
+        </div>
+
+    </div>
+              
+    </div>
+
+    <!-- Lab manual -->
+
+    <div class="content " id="unit6" style="display: none;">
+      <div class="">
+          <div class="inset-0 bg-gradient-to-l w-full from-purple-900 to-red-900 opacity-95 py-10">
+              <h1 class="text-5xl relative z-10 text-center font-kanit tracking-wider font-extrabold text-white md:text-[25px]">
+                Big Data Analytics Lab Manual
+
+              </h1>
+              <!-- <div class="flex items-center justify-center w-full px-4">
+                  <p class="text-md text-zinc-400 font-kanit text-center pt-3 w-[80%]md:text-sm">Hbase – data model and implementations – Hbase clients – Hbase examples – praxis.Pig – Grunt – pig data model – Pig Latin – developing and testing Pig Latin scripts.Hive – data types and file formats – HiveQL data definition – HiveQL data manipulation – HiveQL queries.</p>
+              </div> -->
+          </div>
+  
+
+      <div class="flex justify-around w-full ">
+      <div class="p-[3px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-lg my-5 h-max">
+<!--         
+              <div class="w-[300px] flex items-center p-3 justify-between bg-zinc-100  rounded-xl cursor-pointer tab md:w-[150px] md:mr-2"onclick='SetUrl("./Notes/Status.pdf") '   >
+                <h1 class="text-lg font-medium font-kanit text-gray-800" id="long-answer5">Long Answers</h1>
+                
+              </div> -->
+            </div>
+          </div>
+  </div>
+
+  <div class="w-full h-full p-4 flex items-center justify-center">
+      <div id=" " class="w-[50%] h-full md:w-[80%]">
+          <div id="pdf-pages6" class="pdf-pages"></div>
+      </div>
+      </div>
+  
+      <div class="m-10 flex justify-around items-center md:flex-col">
+
+          <h1 class="w-[300px] bg-purple-500 p-4 text-lg font-kanit text-white rounded-lg cursor-pointer md:mb-2">Download Lab Manual</h1>
+
+          <a href="#unit7" class="w-max bg-purple-500 p-4 text-lg font-kanit text-white rounded-lg ">Previous Year Question Papers  </a>
+
+      </div>
+
+  </div>
+            
+   <!-- Lab manual -->
+
+   <div class="content " id="unit7" style="display: none;">
+    <div class="">
+        <div class="inset-0 bg-gradient-to-l w-full from-purple-900 to-red-900 opacity-95 py-10">
+            <h1 class="text-5xl relative z-10 text-center font-kanit tracking-wider font-extrabold text-white md:text-[25px]">
+              Big Data Analytics Previous Year Question Paper
+
+            </h1>
+            <!-- <div class="flex items-center justify-center w-full px-4">
+                <p class="text-md text-zinc-400 font-kanit text-center pt-3 w-[80%]md:text-sm">Hbase – data model and implementations – Hbase clients – Hbase examples – praxis.Pig – Grunt – pig data model – Pig Latin – developing and testing Pig Latin scripts.Hive – data types and file formats – HiveQL data definition – HiveQL data manipulation – HiveQL queries.</p>
+            </div> -->
+        </div>
+
+
+    <div class="flex justify-around w-full ">
+    <div class="p-[3px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-lg my-5 h-max">
+<!--         
+            <div class="w-[300px] flex items-center p-3 justify-between bg-zinc-100  rounded-xl cursor-pointer tab md:w-[150px] md:mr-2"onclick='SetUrl("./Notes/Status.pdf") '   >
+              <h1 class="text-lg font-medium font-kanit text-gray-800" id="long-answer5">Long Answers</h1>
+              
+            </div> -->
+          </div>
+        </div>
+</div>
+
+<div class="w-full h-full p-4 flex items-center justify-center">
+    <div id=" " class="w-[50%] h-full md:w-[80%]">
+        <div id="pdf-pages7" class="pdf-pages"></div>
+    </div>
+    </div>
+
+    <div class="m-10 flex justify-around items-center md:flex-col">
+
+        <h1 class="w-[300px] bg-purple-500 p-4 text-lg font-kanit text-white rounded-lg cursor-pointer md:mb-2">Download Question Papers</h1>
+
+        <a href="#unit6" class="w-max bg-purple-500 p-4 text-lg font-kanit text-white rounded-lg ">Lab Manual</a>
+
+    </div>
+
+</div>
+          
+  </div>
+
+
+   
+          
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./tailwind.js"></script>
+    <script src="./index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+
+</body>
+</html>
