@@ -67,7 +67,7 @@ const unitsContainer = document.getElementById('units-container');
 // Dynamically generate unit cards
 Units.forEach((item) => {
     const unitCard = document.createElement('div');
-    unitCard.className = 'w-[950px] rounded-xl bg-white flex md:flex-col md:w-[350px] p-2 my-5  items-center border-2 ';
+    unitCard.className = 'w-[950px] rounded-xl bg-white flex md:flex-col md:w-[320px] p-2 my-5  items-center border-2 ';
 
     unitCard.innerHTML = `
       <img src="${item.img}" alt="" class="w-[230px] h-[200px] object-fit rounded-xl 
@@ -77,7 +77,7 @@ Units.forEach((item) => {
         <p class="text-sm font-kanit 
         ${item.unit ===''? "hidden" : "block"}" >Unit-${item.unit}</p>
         <p class="text-xl font-bold text-[#454c8b] ">${item.unitname}</p>
-        <p class="py-1 text-justify font-kanit text-[#95a2b6] md:text-md md:font-normal">${item.syllabus}</p>
+        <p class="py-1 text-justify font-kanit text-[#95a2b6] md:text-sm ">${item.syllabus}</p>
         <a href="#unit${item.unit}" class="text-pink-500 font-kanit">Start Reading</a>
       </div>
     `;
