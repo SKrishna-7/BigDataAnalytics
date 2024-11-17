@@ -45,7 +45,7 @@ const Units=[
 
     {
         img:'https://imgs.search.brave.com/f9HC0hqoV_KIj7EK0ztImZ8DVLgA2gHnyQbZMs0GrOM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c29mdHdhcmV0ZXN0/aW5naGVscC5jb20v/d3AtY29udGVudC9x/YS91cGxvYWRzLzIw/MTgvMDYvZGF0YS10/b29scy1maW5hbDEu/cG5n',
-       
+        vis:'',
         unit:6,
         unitname:'Big Data Analytics Lab Manual',
         syllabus:'Experment-1,Experment-2,Experment-3,Experment-4,....',
@@ -54,7 +54,7 @@ const Units=[
     {
         img:'https://imgs.search.brave.com/WAv3cBYU3CrQIaCMcNLjNHzjWKm0_N5LN3NH0VVpxVo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9kcml2/ZWNvbm5lY3QubWUv/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MDUvVW5kZXJzdGFu/ZGluZy1TYWxlc2Zv/cmNlLVN0b3JhZ2VA/MngtMS5wbmc',
 
-
+        vis:'',
         unit:7,
         unitname:'Big Data Analytics Previous Year Question ',
         syllabus:' Big Data Analytics - CCS334 2021 Regulation - Question Paper 2023 Nov Dec',
@@ -75,7 +75,7 @@ Units.forEach((item) => {
       <div class="px-10 pt-3 md:px-1">
       
         <p class="text-sm font-kanit 
-        ${item.unit ===''? "hidden" : "block"}" >Unit-${item.unit}</p>
+        ${item.vis ===''? "hidden" : "block"}" >Unit-${item.unit}</p>
         <p class="text-xl font-bold text-[#454c8b] ">${item.unitname}</p>
         <p class="py-1 text-justify font-kanit text-[#95a2b6] md:text-[17px] md:font-normal ">${item.syllabus}</p>
         <a href="#unit${item.unit}" class="text-pink-500 font-kanit">Start Reading</a>
