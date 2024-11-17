@@ -77,7 +77,7 @@ Units.forEach((item) => {
         <p class="text-sm font-kanit 
         ${item.unit ===''? "hidden" : "block"}" >Unit-${item.unit}</p>
         <p class="text-xl font-bold text-[#454c8b] ">${item.unitname}</p>
-        <p class="py-1 text-justify font-kanit text-[#95a2b6] md:text-sm ">${item.syllabus}</p>
+        <p class="py-1 text-justify font-kanit text-[#95a2b6] md:text-[17px] md:font-normal ">${item.syllabus}</p>
         <a href="#unit${item.unit}" class="text-pink-500 font-kanit">Start Reading</a>
       </div>
     `;
